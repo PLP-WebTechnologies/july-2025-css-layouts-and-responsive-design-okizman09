@@ -1,0 +1,29 @@
+*{
+    background-color: cadetblue;
+    color: cornsilk;
+}
+h1{
+    background-color: chartreuse;
+    padding: 10px;
+    border:10px solid black;
+    margin: 10px;
+    width: 90%;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+h2{
+    background-color: magenta; 
+    align-content: center;
+    padding: 50px;
+    border: solid thick;
+    
+}
+div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
